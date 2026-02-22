@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Bros</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body> 
+     
+    <header> 
+        <h1>Super Mario Bros</h1> 
+        <nav> 
+            <ul> 
+                <li><a href="#s1" >Historia</a></li> 
+                <li><a href="#s2" >Información</a></li>
+                <li><a href="#s3" >Ficha técnica</a></li> 
+                <li><a href="#s4" >Registro de fans</a></li> 
+                <li><a href="#s5" >Galería</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+     
+    <main> 
+      
+        <section> 
+            <h2 id="s1">Historia</h2> 
+            <p>Mario es un personaje ficticio creado por la empresa japonesa Nintendo. 
+                Apareció por primera vez en 1981 en el videojuego Donkey Kong, 
+                donde originalmente era conocido como “Jumpman”. 
+                Fue diseñado por Shigeru Miyamoto y, debido a su popularidad, posteriormente fue renombrado como Mario. 
+                Desde entonces, se convirtió en el personaje principal de la franquicia Super Mario Bros, una de las series más exitosas en la historia de los videojuegos.</p>
+
+            <p>Dentro de la historia de los juegos, Mario es un fontanero italiano 
+                que vive en el Reino Champiñón. Su misión principal consiste en rescatar 
+                a la Princesa Peach del villano Bowser, quien constantemente intenta 
+                apoderarse del reino. A lo largo de los años, Mario ha participado 
+                en múltiples aventuras, enfrentando diferentes enemigos y superando 
+                diversos desafíos. Gracias a su carisma y relevancia cultural, 
+                se ha convertido en uno de los personajes más reconocidos e influyentes 
+                del entretenimiento digital a nivel mundial.</p>
+
+            <img src="img/mariobrospixel.jpg" alt="Super Mario Bros" width="250">
+        </section> 
+         
+        <section> 
+            <h2 id="s2">Información</h2> 
+            <h3>Habilidades y características</h3>
+            <ul>
+                <li>Gran habilidad para saltar grandes alturas.</li>
+                <li>Uso de power-ups como la Flor de Fuego y la Super Estrella.</li>
+                <li>Capacidad de derrotar enemigos pisándolos.</li>
+                <li>Experto en rescatar a la Princesa Peach.</li>
+                <li>Valentía y espíritu heroico.</li>
+            </ul>
+
+            <h3>Top 3 momentos más icónicos</h3>
+            <ol>
+                <li>Su primera aparición en Donkey Kong (1981).</li>
+                <li>El lanzamiento de Super Mario Bros en 1985.</li>
+                <li>La transición al mundo 3D con Super Mario 64.</li>
+            </ol>
+        </section>       
+                 
+        
+        <section> 
+            <h2 id="s3">Ficha técnica</h2> 
+            <table>
+                <caption>Mario Mario</caption>
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                        <th>Información</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Edad</td>
+                        <td>38 años aprox (como personaje ficticio desde 1981)</td>
+                    </tr>
+                    <tr>
+                        <td>Peso</td>
+                        <td>32 kg</td>
+                    </tr>
+                    <tr>
+                        <td>Estatura</td>
+                        <td>1.55 m</td>
+                    </tr>
+                    <tr>
+                        <td>Primera aparición</td>
+                        <td>Donkey Kong (1981)</td>
+                    </tr>
+                    <tr>
+                        <td>Debilidades</td>
+                        <td>Caídas, enemigos grandes sin power-ups</td>
+                    </tr>
+                    <tr>
+                        <td>Alias</td>
+                        <td>Jumpman</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>     
+                 
+        <section> 
+            <h2 id="s4">Registro de fans</h2> 
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required><br><br>
+
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="mario@gmail.com" required><br><br>
+
+                <label for="edad">Edad:</label><br>
+                <input type="number" id="edad" name="edad" min="1" max="100" required><br><br>
+
+                <label for="fanlevel">Nivel de fan:</label><br>
+                <select id="fanlevel" name="fanlevel" required>
+                    <option value="ultra">Ultra Fan</option>
+                    <option value="numero1">Fan Nº1</option>
+                    <option value="fan" selected>Fan</option>
+                    <option value="conoce">Solo lo conoce</option>
+                </select><br><br>
+
+                <label for="favchar">Personaje favorito de Mario Bros:</label><br>
+                <select id="favchar" name="favchar" required>
+                    <option value="mario" selected>Mario</option> 
+                    <option value="luigi">Luigi</option>
+                    <option value="peach">Princesa Peach</option>
+                    <option value="bowser">Bowser</option>
+                    <option value="yoshi">Yoshi</option>
+                    <option value="toad">Toad</option>
+                </select><br><br>
+
+                <p>¿Quieres más información sobre Mario? Visita la 
+                    <a href="https://mario.nintendo.com/es/" target="_blank">Wiki oficial de Mario</a>.
+                </p>
+
+                <input type="submit" value="Unirse al Club">
+            </form>
+        </section>     
+                 
+        <section> 
+            <h2 id="s5">Galería</h2> 
+            <img src="img/mheroe.jpg" alt="Mario es un super héroe" width="200">
+            <img src="img/spworld.jpg" alt="Un clásico" width="200">
+            <img src="img/marioyo.jpg" alt="Cansado de ser el mejor" width="200">
+            <img src="img/thebestmario.jpg" alt="Simplemente una leyenda" width="300">
+        </section> 
+    </main> 
+     
+    <footer> 
+        <p>Creado por Carlos Moisés Segura Marinero</p> 
+        <p>© Todos los derechos reservados</p> 
+    </footer> 
+</body> 
+</html>
