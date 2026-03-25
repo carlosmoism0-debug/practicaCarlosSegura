@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Super Mario Bros!</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body> 
      
     <header> 
-        <h1><mark>¡Super Mario Bros!</mark></h1>
-        <img src="img/thebest.jpg" alt="¡Super Mario!" width="350">
-        <nav> 
-            <ul> 
-                <li><a href="#s1" >Historia</a></li> 
-                <li><a href="#s2" >Información</a></li>
-                <li><a href="#s3" >Ficha técnica</a></li> 
-                <li><a href="#s4" >Registro de fans</a></li> 
-                <li><a href="#s5" >Galería</a></li> 
+        <h1 class="titulo"> <mark>¡Super Mario Bros!</mark></h1>
+        
+        <nav class="nav"> 
+            <ul class="menu"> 
+                <li><a class="link" href="#s1" >Historia</a></li> 
+                <li><a class="link" href="#s2" >Información</a></li>
+                <li><a class="link" href="#s3" >Ficha técnica</a></li> 
+                <li><a class="link" href="#s4" >Registro de fans</a></li> 
+                <li><a class="link" href="#s5" >Galería</a></li> 
             </ul> 
         </nav> 
     </header> 
@@ -33,6 +27,9 @@
       
         <section> 
             <h2 id="s1">Historia</h2> 
+
+            <img class="imagenn" src="img/mariobrospixel.jpg" alt="Super Mario Bros" width="250">
+
             <p>Mario es un personaje ficticio creado por la empresa japonesa Nintendo. 
                 Apareció por primera vez en 1981 en el videojuego Donkey Kong, 
                 donde originalmente era conocido como “Jumpman”. 
@@ -48,11 +45,14 @@
                 se ha convertido en uno de los personajes más reconocidos e influyentes 
                 del entretenimiento digital a nivel mundial.</p>
 
-            <img src="img/mariobrospixel.jpg" alt="Super Mario Bros" width="250">
         </section> 
          
         <section> 
             <h2 id="s2">Información</h2> 
+
+            <img class="imagenn" src="img/yeah.jpg" alt="Yeah it´s a me" width="250">
+
+
             <h3>Habilidades y características</h3>
             <ul>
                 <li>Gran habilidad para saltar grandes alturas.</li>
@@ -71,8 +71,9 @@
         </section>       
                  
         
-        <section> 
+        <section class="tabla"> 
             <h2 id="s3">Ficha técnica</h2> 
+
             <table>
                 <caption>Mario Mario</caption>
                 
@@ -108,7 +109,7 @@
                     </tr>
                 
             </table>
-            <img src="img/yeah.jpg" alt="Yeah it´s a me" width="250">
+            
         </section>     
                  
         <section> 
@@ -153,15 +154,16 @@
                 </select><br><br>
 
                 <p>¿Quieres más información sobre Mario? Visita la 
-                    <a href="https://mario.nintendo.com/es/" target="_blank">Wiki oficial de Mario</a>.
+                    <a class="link" href="https://es.wikipedia.org/wiki/Super_Mario_Bros." target="_blank">Wiki oficial de Mario</a>.
                 </p>
 
                 <input type="submit" value="Unirse al Club">
             </form>
         </section>     
                  
-        <section> 
-            <h2 id="s5">Galería</h2> 
+        <section class="galeria"> 
+            <h2 id="s5">Galería</h2>
+            <div class="contenedor">
             <img src="img/mheroe.jpg" alt="Mario es un super héroe" width="250">
             <img src="img/spworld.jpg" alt="Un clásico" width="250">
             <img src="img/marioyo.jpg" alt="Cansado de ser el mejor" width="200">
@@ -171,7 +173,7 @@
             <img src="img/supermarrito.jpg" alt="Mario es la bestia" width="350">
             <img src="img/todobienmario.jpg" alt="Todo bien crack" width="350">
             <img src="img/uncrack.jpg" alt="Un crack" width="335">
-            
+            </div>
         </section> 
     </main> 
      
